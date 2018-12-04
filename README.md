@@ -30,4 +30,14 @@
    <h3>3.3 拷贝LuaSupport文件夹到FairyGui目录下，具体内容查看FairyGui官网 http://www.fairygui.com/guide/unity/lua.html 介绍，如图</h3>
    <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204152645.png"/>
    
+<h2 name="n4">4、AssetBundle打包</h2>
+   <h3>AssetBundle原理参考 http://www.cnblogs.com/msxh/p/8506274.html </h3>
+   <h3>自动设置AssetBundle Name</h3>
+   <h3>AssetBundle Browser自动打包 参考：http://gad.qq.com/article/detail/287854</h3>
+   <h3>生成Version.txt更新文件</h3>
+   <h3>清除所有AssetBundle Name</h3>
+   <h3>4.1 拷贝AssetBundleConfig.cs BuildAssetBundleVersion.cs CreateAssetBundle.cs 到 Assets/Editor目录下</h3>
+   <h3>    菜单栏 window -> 出现3个新按钮。如图：</h3>
+   <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204154421.png"/>
+   
    
