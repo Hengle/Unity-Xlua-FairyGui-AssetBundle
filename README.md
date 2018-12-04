@@ -27,5 +27,7 @@
    <h3>3.1 到 https://github.com/fairygui/FairyGUI-unity/releases 下载FairyGui发布版FairyGUI-u2017-3_2_0.unitypackage</h3>
    <h3>3.2 然后直接拖拽FairyGUI-u2017-3_1_0.unitypackage到Unity界面的Assets目录下，会弹出导入框，点击import即可。如图：</h3>
    <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204151027.png"/>
+   <h3>3.3 拷贝LuaSupport文件夹到FairyGui目录下，具体内容查看FairyGui官网 http://www.fairygui.com/guide/unity/lua.html 介绍，如图</h3>
+   <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204152645.png"/>
    
    
