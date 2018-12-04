@@ -1,0 +1,525 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-nostdlib
+-r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+-r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+-r:Library/ScriptAssemblies/Unity.AssetBundleBrowser.Editor.dll
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.FacebookModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:C:/Users/Terry/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
+-r:C:/Users/Terry/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\mscorlib.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Core.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_2_16
+-define:UNITY_2018_2
+-define:UNITY_2018
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_VIDEO
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:HOTFIX_ENABLE
+Assets/FairyGUI/Examples/Bag/BagMain.cs
+Assets/FairyGUI/Examples/Bag/BagWindow.cs
+Assets/FairyGUI/Examples/Bag/IconManager.cs
+Assets/FairyGUI/Examples/Bag/MyGLoader.cs
+Assets/FairyGUI/Examples/Basics/BasicsMain.cs
+Assets/FairyGUI/Examples/Basics/Window1.cs
+Assets/FairyGUI/Examples/Basics/Window2.cs
+Assets/FairyGUI/Examples/BundleUsage/BundleUsageMain.cs
+Assets/FairyGUI/Examples/Cooldown/CooldownMain.cs
+Assets/FairyGUI/Examples/Curve/CurveMain.cs
+Assets/FairyGUI/Examples/CutScene/CutSceneMain.cs
+Assets/FairyGUI/Examples/CutScene/LevelManager.cs
+Assets/FairyGUI/Examples/EmitNumbers/EmitComponent.cs
+Assets/FairyGUI/Examples/EmitNumbers/EmitManager.cs
+Assets/FairyGUI/Examples/EmitNumbers/EmitNumbersMain.cs
+Assets/FairyGUI/Examples/Emoji/EmojiMain.cs
+Assets/FairyGUI/Examples/Emoji/EmojiParser.cs
+Assets/FairyGUI/Examples/Extension/ExtensionMain.cs
+Assets/FairyGUI/Examples/Extension/MailItem.cs
+Assets/FairyGUI/Examples/Filter/FilterMain.cs
+Assets/FairyGUI/Examples/Gesture/GestureMain.cs
+Assets/FairyGUI/Examples/Guide/GuideMain.cs
+Assets/FairyGUI/Examples/HeadBar/HeadBarMain.cs
+Assets/FairyGUI/Examples/HitTest/HitTestMain.cs
+Assets/FairyGUI/Examples/Joystick/JoystickMain.cs
+Assets/FairyGUI/Examples/Joystick/JoystickModule.cs
+Assets/FairyGUI/Examples/LoopList/LoopListMain.cs
+Assets/FairyGUI/Examples/ModalWaiting/GlobalWaiting.cs
+Assets/FairyGUI/Examples/ModalWaiting/ModalWaitingMain.cs
+Assets/FairyGUI/Examples/ModalWaiting/Window4.cs
+Assets/FairyGUI/Examples/Model/ModelMain.cs
+Assets/FairyGUI/Examples/Particles/CoolComponent.cs
+Assets/FairyGUI/Examples/Particles/ParticlesMain.cs
+Assets/FairyGUI/Examples/Perspetive/PerspectiveMain.cs
+Assets/FairyGUI/Examples/PullToRefresh/PullToRefreshMain.cs
+Assets/FairyGUI/Examples/PullToRefresh/ScrollPaneHeader.cs
+Assets/FairyGUI/Examples/RenderTexture/RenderImage.cs
+Assets/FairyGUI/Examples/RenderTexture/RenderTextureMain.cs
+Assets/FairyGUI/Examples/RenderTexture/Window3.cs
+Assets/FairyGUI/Examples/ScrollPane/ScrollPaneMain.cs
+Assets/FairyGUI/Examples/Transition/TransitionMain.cs
+Assets/FairyGUI/Examples/TreeView/TreeViewMain.cs
+Assets/FairyGUI/Examples/TurnCard/Card.cs
+Assets/FairyGUI/Examples/TurnCard/TurnCardMain.cs
+Assets/FairyGUI/Examples/TypingEffect/TypingEffectMain.cs
+Assets/FairyGUI/Examples/VirtualList/VirtualListMain.cs
+Assets/FairyGUI/LuaSupport/FairyGuiGenConfig.cs
+Assets/FairyGUI/LuaSupport/LuaUIHelper.cs
+Assets/FairyGUI/Scripts/Core/BlendMode.cs
+Assets/FairyGUI/Scripts/Core/CaptureCamera.cs
+Assets/FairyGUI/Scripts/Core/Container.cs
+Assets/FairyGUI/Scripts/Core/DisplayObject.cs
+Assets/FairyGUI/Scripts/Core/DisplayOptions.cs
+Assets/FairyGUI/Scripts/Core/FillUtils.cs
+Assets/FairyGUI/Scripts/Core/GoWrapper.cs
+Assets/FairyGUI/Scripts/Core/HitTest/BoxColliderHitTest.cs
+Assets/FairyGUI/Scripts/Core/HitTest/ColliderHitTest.cs
+Assets/FairyGUI/Scripts/Core/HitTest/HitTestContext.cs
+Assets/FairyGUI/Scripts/Core/HitTest/IHitTest.cs
+Assets/FairyGUI/Scripts/Core/HitTest/MeshColliderHitTest.cs
+Assets/FairyGUI/Scripts/Core/HitTest/PixelHitTest.cs
+Assets/FairyGUI/Scripts/Core/HitTest/RectHitTest.cs
+Assets/FairyGUI/Scripts/Core/Image.cs
+Assets/FairyGUI/Scripts/Core/MaterialManager.cs
+Assets/FairyGUI/Scripts/Core/MovieClip.cs
+Assets/FairyGUI/Scripts/Core/NAudioClip.cs
+Assets/FairyGUI/Scripts/Core/NGraphics.cs
+Assets/FairyGUI/Scripts/Core/NMaterial.cs
+Assets/FairyGUI/Scripts/Core/NTexture.cs
+Assets/FairyGUI/Scripts/Core/ShaderConfig.cs
+Assets/FairyGUI/Scripts/Core/Shape.cs
+Assets/FairyGUI/Scripts/Core/Stage.cs
+Assets/FairyGUI/Scripts/Core/StageCamera.cs
+Assets/FairyGUI/Scripts/Core/StageEngine.cs
+Assets/FairyGUI/Scripts/Core/Stats.cs
+Assets/FairyGUI/Scripts/Core/Text/BaseFont.cs
+Assets/FairyGUI/Scripts/Core/Text/BitmapFont.cs
+Assets/FairyGUI/Scripts/Core/Text/CopyPastePatch.cs
+Assets/FairyGUI/Scripts/Core/Text/DynamicFont.cs
+Assets/FairyGUI/Scripts/Core/Text/Emoji.cs
+Assets/FairyGUI/Scripts/Core/Text/FontManager.cs
+Assets/FairyGUI/Scripts/Core/Text/IKeyboard.cs
+Assets/FairyGUI/Scripts/Core/Text/InputTextField.cs
+Assets/FairyGUI/Scripts/Core/Text/RichTextField.cs
+Assets/FairyGUI/Scripts/Core/Text/RTLSupport.cs
+Assets/FairyGUI/Scripts/Core/Text/SelectionShape.cs
+Assets/FairyGUI/Scripts/Core/Text/TextField.cs
+Assets/FairyGUI/Scripts/Core/Text/TextFormat.cs
+Assets/FairyGUI/Scripts/Core/Text/TouchScreenKeyboard.cs
+Assets/FairyGUI/Scripts/Core/Text/TypingEffect.cs
+Assets/FairyGUI/Scripts/Core/UpdateContext.cs
+Assets/FairyGUI/Scripts/Event/EventBridge.cs
+Assets/FairyGUI/Scripts/Event/EventContext.cs
+Assets/FairyGUI/Scripts/Event/EventDispatcher.cs
+Assets/FairyGUI/Scripts/Event/EventListener.cs
+Assets/FairyGUI/Scripts/Event/IEventDispatcher.cs
+Assets/FairyGUI/Scripts/Event/InputEvent.cs
+Assets/FairyGUI/Scripts/Filter/BlurFilter.cs
+Assets/FairyGUI/Scripts/Filter/ColorFilter.cs
+Assets/FairyGUI/Scripts/Filter/IFilter.cs
+Assets/FairyGUI/Scripts/Gesture/LongPressGesture.cs
+Assets/FairyGUI/Scripts/Gesture/PinchGesture.cs
+Assets/FairyGUI/Scripts/Gesture/RotationGesture.cs
+Assets/FairyGUI/Scripts/Gesture/SwipeGesture.cs
+Assets/FairyGUI/Scripts/Tween/EaseManager.cs
+Assets/FairyGUI/Scripts/Tween/EaseType.cs
+Assets/FairyGUI/Scripts/Tween/GTween.cs
+Assets/FairyGUI/Scripts/Tween/GTweener.cs
+Assets/FairyGUI/Scripts/Tween/TweenManager.cs
+Assets/FairyGUI/Scripts/Tween/TweenPropType.cs
+Assets/FairyGUI/Scripts/Tween/TweenValue.cs
+Assets/FairyGUI/Scripts/UI/Action/ChangePageAction.cs
+Assets/FairyGUI/Scripts/UI/Action/ControllerAction.cs
+Assets/FairyGUI/Scripts/UI/Action/PlayTransitionAction.cs
+Assets/FairyGUI/Scripts/UI/AsyncCreationHelper.cs
+Assets/FairyGUI/Scripts/UI/Controller.cs
+Assets/FairyGUI/Scripts/UI/DragDropManager.cs
+Assets/FairyGUI/Scripts/UI/EMRenderSupport.cs
+Assets/FairyGUI/Scripts/UI/FieldTypes.cs
+Assets/FairyGUI/Scripts/UI/GButton.cs
+Assets/FairyGUI/Scripts/UI/GComboBox.cs
+Assets/FairyGUI/Scripts/UI/GComponent.cs
+Assets/FairyGUI/Scripts/UI/Gears/GearAnimation.cs
+Assets/FairyGUI/Scripts/UI/Gears/GearBase.cs
+Assets/FairyGUI/Scripts/UI/Gears/GearColor.cs
+Assets/FairyGUI/Scripts/UI/Gears/GearDisplay.cs
+Assets/FairyGUI/Scripts/UI/Gears/GearIcon.cs
+Assets/FairyGUI/Scripts/UI/Gears/GearLook.cs
+Assets/FairyGUI/Scripts/UI/Gears/GearSize.cs
+Assets/FairyGUI/Scripts/UI/Gears/GearText.cs
+Assets/FairyGUI/Scripts/UI/Gears/GearXY.cs
+Assets/FairyGUI/Scripts/UI/Gears/IAnimationGear.cs
+Assets/FairyGUI/Scripts/UI/Gears/IColorGear.cs
+Assets/FairyGUI/Scripts/UI/GGraph.cs
+Assets/FairyGUI/Scripts/UI/GGroup.cs
+Assets/FairyGUI/Scripts/UI/GImage.cs
+Assets/FairyGUI/Scripts/UI/GLabel.cs
+Assets/FairyGUI/Scripts/UI/GList.cs
+Assets/FairyGUI/Scripts/UI/GLoader.cs
+Assets/FairyGUI/Scripts/UI/GMovieClip.cs
+Assets/FairyGUI/Scripts/UI/GObject.cs
+Assets/FairyGUI/Scripts/UI/GObjectPool.cs
+Assets/FairyGUI/Scripts/UI/GProgressBar.cs
+Assets/FairyGUI/Scripts/UI/GRichTextField.cs
+Assets/FairyGUI/Scripts/UI/GRoot.cs
+Assets/FairyGUI/Scripts/UI/GScrollBar.cs
+Assets/FairyGUI/Scripts/UI/GSlider.cs
+Assets/FairyGUI/Scripts/UI/GTextField.cs
+Assets/FairyGUI/Scripts/UI/GTextInput.cs
+Assets/FairyGUI/Scripts/UI/IUISource.cs
+Assets/FairyGUI/Scripts/UI/Margin.cs
+Assets/FairyGUI/Scripts/UI/PackageItem.cs
+Assets/FairyGUI/Scripts/UI/PageOption.cs
+Assets/FairyGUI/Scripts/UI/PopupMenu.cs
+Assets/FairyGUI/Scripts/UI/RelationItem.cs
+Assets/FairyGUI/Scripts/UI/Relations.cs
+Assets/FairyGUI/Scripts/UI/ScrollPane.cs
+Assets/FairyGUI/Scripts/UI/Transition.cs
+Assets/FairyGUI/Scripts/UI/TranslationHelper.cs
+Assets/FairyGUI/Scripts/UI/Tree/TreeNode.cs
+Assets/FairyGUI/Scripts/UI/Tree/TreeView.cs
+Assets/FairyGUI/Scripts/UI/UIConfig.cs
+Assets/FairyGUI/Scripts/UI/UIContentScaler.cs
+Assets/FairyGUI/Scripts/UI/UIObjectFactory.cs
+Assets/FairyGUI/Scripts/UI/UIPackage.cs
+Assets/FairyGUI/Scripts/UI/UIPainter.cs
+Assets/FairyGUI/Scripts/UI/UIPanel.cs
+Assets/FairyGUI/Scripts/UI/Window.cs
+Assets/FairyGUI/Scripts/Utils/ByteBuffer.cs
+Assets/FairyGUI/Scripts/Utils/Html/HtmlButton.cs
+Assets/FairyGUI/Scripts/Utils/Html/HtmlElement.cs
+Assets/FairyGUI/Scripts/Utils/Html/HtmlImage.cs
+Assets/FairyGUI/Scripts/Utils/Html/HtmlInput.cs
+Assets/FairyGUI/Scripts/Utils/Html/HtmlLink.cs
+Assets/FairyGUI/Scripts/Utils/Html/HtmlPageContext.cs
+Assets/FairyGUI/Scripts/Utils/Html/HtmlParseOptions.cs
+Assets/FairyGUI/Scripts/Utils/Html/HtmlParser.cs
+Assets/FairyGUI/Scripts/Utils/Html/HtmlSelect.cs
+Assets/FairyGUI/Scripts/Utils/Html/IHtmlObject.cs
+Assets/FairyGUI/Scripts/Utils/Html/IHtmlPageContext.cs
+Assets/FairyGUI/Scripts/Utils/Timers.cs
+Assets/FairyGUI/Scripts/Utils/ToolSet.cs
+Assets/FairyGUI/Scripts/Utils/UBBParser.cs
+Assets/FairyGUI/Scripts/Utils/XML.cs
+Assets/FairyGUI/Scripts/Utils/XMLIterator.cs
+Assets/FairyGUI/Scripts/Utils/XMLList.cs
+Assets/FairyGUI/Scripts/Utils/XMLUtils.cs
+Assets/FairyGUI/Scripts/Utils/ZipReader.cs
+Assets/XLua/Examples/01_Helloworld/Helloworld.cs
+Assets/XLua/Examples/02_U3DScripting/LuaBehaviour.cs
+Assets/XLua/Examples/04_LuaObjectOrented/InvokeLua.cs
+Assets/XLua/Examples/05_NoGc/NoGc.cs
+Assets/XLua/Examples/06_Coroutine/Coroutine_Runner.cs
+Assets/XLua/Examples/06_Coroutine/CoroutineTest.cs
+Assets/XLua/Examples/07_AsyncTest/AsyncTest.cs
+Assets/XLua/Examples/07_AsyncTest/MessageBox.cs
+Assets/XLua/Examples/08_Hotfix/HotfixTest.cs
+Assets/XLua/Examples/08_Hotfix/HotfixTest2.cs
+Assets/XLua/Examples/08_Hotfix/StatefullTest.cs
+Assets/XLua/Examples/09_GenericMethod/Foo.cs
+Assets/XLua/Examples/09_GenericMethod/GenericMethodExample.cs
+Assets/XLua/Examples/10_SignatureLoader/SignatureLoaderTest.cs
+Assets/XLua/Examples/11_RawObject/RawObjectTest.cs
+Assets/XLua/Examples/12_ReImplementInLua/ReImplementInLua.cs
+Assets/XLua/Examples/ExampleGenConfig.cs
+Assets/XLua/Gen/BaseTestWrap.cs
+Assets/XLua/Gen/CSCallLuaItfDBridge.cs
+Assets/XLua/Gen/DelegatesGensBridge.cs
+Assets/XLua/Gen/EnumWrap.cs
+Assets/XLua/Gen/FairyGUIContainerWrap.cs
+Assets/XLua/Gen/FairyGUIControllerWrap.cs
+Assets/XLua/Gen/FairyGUIDisplayObjectWrap.cs
+Assets/XLua/Gen/FairyGUIEventContextWrap.cs
+Assets/XLua/Gen/FairyGUIEventDispatcherWrap.cs
+Assets/XLua/Gen/FairyGUIEventListenerWrap.cs
+Assets/XLua/Gen/FairyGUIGButtonWrap.cs
+Assets/XLua/Gen/FairyGUIGComboBoxWrap.cs
+Assets/XLua/Gen/FairyGUIGComponentWrap.cs
+Assets/XLua/Gen/FairyGUIGGraphWrap.cs
+Assets/XLua/Gen/FairyGUIGGroupWrap.cs
+Assets/XLua/Gen/FairyGUIGImageWrap.cs
+Assets/XLua/Gen/FairyGUIGLabelWrap.cs
+Assets/XLua/Gen/FairyGUIGListWrap.cs
+Assets/XLua/Gen/FairyGUIGLoaderWrap.cs
+Assets/XLua/Gen/FairyGUIGLuaButtonWrap.cs
+Assets/XLua/Gen/FairyGUIGLuaComboBoxWrap.cs
+Assets/XLua/Gen/FairyGUIGLuaComponentWrap.cs
+Assets/XLua/Gen/FairyGUIGLuaLabelWrap.cs
+Assets/XLua/Gen/FairyGUIGLuaProgressBarWrap.cs
+Assets/XLua/Gen/FairyGUIGLuaSliderWrap.cs
+Assets/XLua/Gen/FairyGUIGMovieClipWrap.cs
+Assets/XLua/Gen/FairyGUIGObjectPoolWrap.cs
+Assets/XLua/Gen/FairyGUIGObjectWrap.cs
+Assets/XLua/Gen/FairyGUIGoWrapperWrap.cs
+Assets/XLua/Gen/FairyGUIGProgressBarWrap.cs
+Assets/XLua/Gen/FairyGUIGRichTextFieldWrap.cs
+Assets/XLua/Gen/FairyGUIGRootWrap.cs
+Assets/XLua/Gen/FairyGUIGSliderWrap.cs
+Assets/XLua/Gen/FairyGUIGTextFieldWrap.cs
+Assets/XLua/Gen/FairyGUIGTextInputWrap.cs
+Assets/XLua/Gen/FairyGUIGTweenerWrap.cs
+Assets/XLua/Gen/FairyGUIGTweenWrap.cs
+Assets/XLua/Gen/FairyGUIInputEventWrap.cs
+Assets/XLua/Gen/FairyGUILuaUIHelperWrap.cs
+Assets/XLua/Gen/FairyGUILuaWindowWrap.cs
+Assets/XLua/Gen/FairyGUIPopupMenuWrap.cs
+Assets/XLua/Gen/FairyGUIRelationsWrap.cs
+Assets/XLua/Gen/FairyGUIScrollPaneWrap.cs
+Assets/XLua/Gen/FairyGUIStageWrap.cs
+Assets/XLua/Gen/FairyGUITextFormatWrap.cs
+Assets/XLua/Gen/FairyGUITimersWrap.cs
+Assets/XLua/Gen/FairyGUITransitionWrap.cs
+Assets/XLua/Gen/FairyGUITweenValueWrap.cs
+Assets/XLua/Gen/FairyGUIUIPackageWrap.cs
+Assets/XLua/Gen/FairyGUIWindowWrap.cs
+Assets/XLua/Gen/Foo1ChildWrap.cs
+Assets/XLua/Gen/Foo1ParentWrap.cs
+Assets/XLua/Gen/Foo2ChildWrap.cs
+Assets/XLua/Gen/Foo2ParentWrap.cs
+Assets/XLua/Gen/FooExtensionWrap.cs
+Assets/XLua/Gen/FooWrap.cs
+Assets/XLua/Gen/InvokeLuaICalcBridge.cs
+Assets/XLua/Gen/LuaBehaviourWrap.cs
+Assets/XLua/Gen/PackUnpack.cs
+Assets/XLua/Gen/SystemCollectionsGenericList1SystemInt32Wrap.cs
+Assets/XLua/Gen/SystemCollectionsIEnumeratorBridge.cs
+Assets/XLua/Gen/SystemObjectWrap.cs
+Assets/XLua/Gen/TutorialBaseClassWrap.cs
+Assets/XLua/Gen/TutorialDerivedClassExtensionsWrap.cs
+Assets/XLua/Gen/TutorialDerivedClassWrap.cs
+Assets/XLua/Gen/TutorialICalcWrap.cs
+Assets/XLua/Gen/TutorialPrivateOverrideClassWrap.cs
+Assets/XLua/Gen/UnityEngineAnimationClipWrap.cs
+Assets/XLua/Gen/UnityEngineAnimationCurveWrap.cs
+Assets/XLua/Gen/UnityEngineBehaviourWrap.cs
+Assets/XLua/Gen/UnityEngineBoundsWrap.cs
+Assets/XLua/Gen/UnityEngineColorWrap.cs
+Assets/XLua/Gen/UnityEngineComponentWrap.cs
+Assets/XLua/Gen/UnityEngineDebugWrap.cs
+Assets/XLua/Gen/UnityEngineGameObjectWrap.cs
+Assets/XLua/Gen/UnityEngineKeyframeWrap.cs
+Assets/XLua/Gen/UnityEngineLightWrap.cs
+Assets/XLua/Gen/UnityEngineMathfWrap.cs
+Assets/XLua/Gen/UnityEngineMonoBehaviourWrap.cs
+Assets/XLua/Gen/UnityEngineObjectWrap.cs
+Assets/XLua/Gen/UnityEngineParticleSystemWrap.cs
+Assets/XLua/Gen/UnityEngineQuaternionWrap.cs
+Assets/XLua/Gen/UnityEngineRay2DWrap.cs
+Assets/XLua/Gen/UnityEngineRayWrap.cs
+Assets/XLua/Gen/UnityEngineRendererWrap.cs
+Assets/XLua/Gen/UnityEngineResourcesWrap.cs
+Assets/XLua/Gen/UnityEngineSkinnedMeshRendererWrap.cs
+Assets/XLua/Gen/UnityEngineTextAssetWrap.cs
+Assets/XLua/Gen/UnityEngineTimeWrap.cs
+Assets/XLua/Gen/UnityEngineTransformWrap.cs
+Assets/XLua/Gen/UnityEngineVector2Wrap.cs
+Assets/XLua/Gen/UnityEngineVector3Wrap.cs
+Assets/XLua/Gen/UnityEngineVector4Wrap.cs
+Assets/XLua/Gen/UnityEngineWaitForSecondsWrap.cs
+Assets/XLua/Gen/UnityEngineWWWWrap.cs
+Assets/XLua/Gen/WrapPusher.cs
+Assets/XLua/Gen/XLuaGenAutoRegister.cs
+Assets/XLua/Gen/XLuaTestIExchangerBridge.cs
+Assets/XLua/Gen/XLuaTestMyStructWrap.cs
+Assets/XLua/Gen/XLuaTestNoGcWrap.cs
+Assets/XLua/Gen/XLuaTestPeddingWrap.cs
+Assets/XLua/Src/CodeEmit.cs
+Assets/XLua/Src/CopyByValue.cs
+Assets/XLua/Src/DelegateBridge.cs
+Assets/XLua/Src/GenAttributes.cs
+Assets/XLua/Src/GenericDelegateBridge.cs
+Assets/XLua/Src/InternalGlobals.cs
+Assets/XLua/Src/LuaBase.cs
+Assets/XLua/Src/LuaDLL.cs
+Assets/XLua/Src/LuaEnv.cs
+Assets/XLua/Src/LuaException.cs
+Assets/XLua/Src/LuaFunction.cs
+Assets/XLua/Src/LuaTable.cs
+Assets/XLua/Src/MethodWarpsCache.cs
+Assets/XLua/Src/ObjectCasters.cs
+Assets/XLua/Src/ObjectPool.cs
+Assets/XLua/Src/ObjectTranslator.cs
+Assets/XLua/Src/ObjectTranslatorPool.cs
+Assets/XLua/Src/RawObject.cs
+Assets/XLua/Src/SignatureLoader.cs
+Assets/XLua/Src/StaticLuaCallbacks.cs
+Assets/XLua/Src/TemplateEngine/TemplateEngine.cs
+Assets/XLua/Src/TypeExtensions.cs
+Assets/XLua/Src/Utils.cs
+Assets/XLua/Tutorial/CSharpCallLua/CSCallLua.cs
+Assets/XLua/Tutorial/LoadLuaScript/ByFile/ByFile.cs
+Assets/XLua/Tutorial/LoadLuaScript/ByString/ByString.cs
+Assets/XLua/Tutorial/LoadLuaScript/Loader/CustomLoader.cs
+Assets/XLua/Tutorial/LuaCallCSharp/LuaCallCs.cs
+-lib:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity"
