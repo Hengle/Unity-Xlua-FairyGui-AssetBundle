@@ -22,4 +22,9 @@
    <h4>2.3 在Unity中打开UnityFramework项目，可以看到菜单栏中有了Xlua菜单项，并在Assets根目录中新建Editor、Lua、Resources、Scenes、Scripts这5个空目录，之后会使用。如图：</h4>   
    <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204145630.png"/>
    
+<h2 name="n2">3、结合FairyGui并配置</h2>
+   <h4>2.1 到 https://github.com/fairygui/FairyGUI-unity/releases 下载FairyGui发布版FairyGUI-u2017-3_2_0.unitypackage
+，然后直接拖拽FairyGUI-u2017-3_1_0.unitypackage到Unity界面的Assets目录下，会弹出导入框，点击import即可。如图：</h4>
+   <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204151027.png"/>
+   
    
