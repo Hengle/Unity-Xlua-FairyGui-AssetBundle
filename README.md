@@ -1,4 +1,4 @@
-<h1>主要支持两个方面，一是结合Unity、Xlua、FairyGui、以及AB打包，二是支持服务器热更新AssetBundle。</h1>
+<h2>主要支持两个方面，一是结合Unity、Xlua、FairyGui、以及AB打包，二是支持服务器热更新AssetBundle。</h1>
 <h2>下面说明项目从无到有的搭建过程：</h2>
 
 <h2>1、新建空Unity项目</h2>
