@@ -1,4 +1,5 @@
-<h2>下面说明项目从无到有的搭建过程，项目支持Unity、Xlua、FairyGui、AssetBundle打包，资源热更新，共七个方面：</h2>
+<h2>下面说明项目从无到有的搭建过程</h2>
+<h2>项目支持Unity、Xlua、FairyGui、AssetBundle打包，资源热更新，共七个方面：</h2>
    <h3><a href="#n1">1、新建Unity空项目</a></h3>
    <h3><a href="#n2">2、结合Xlua并配置</a></h3>
    <h3><a href="#n3">3、结合FairyGui并配置</a></h3>
