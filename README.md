@@ -4,7 +4,7 @@
    <h3><a href="#n2">2、结合Xlua并配置</a></h3>
    <h3><a href="#n3">3、结合FairyGui并配置</a></h3>
    <h3><a href="#n4">4、AssetBundle打包</a></h3>
-   <h3><a href="#n5">5、IIS服务器配置与资源下载代码</a></h3>   
+   <h3><a href="#n5">5、IIS服务器配置与资源更新下载</a></h3>   
    <h3><a href="#n6">6、FairyGui使用动态资源</a></h3>
    <h3><a href="#n7">7、HotFix代码更新</a></h3>
 
