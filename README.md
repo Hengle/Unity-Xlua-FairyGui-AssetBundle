@@ -40,6 +40,7 @@
    <h3>    菜单栏 window -> 出现3个新按钮。如图：</h3>
    <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204154421.png"/>
    <h3>4.2 到 https://github.com/Unity-Technologies/AssetBundles-Browser/releases 下载AssetBundles-Browser发布版，解压后把Editor文件拷贝到UnityFramwork项目中Editor/AssetBundlesBroswer目录下。如图</h3>
+   <h3>此时window -> 也出现了 AssetBundle Browser 选项</h3>
    <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204155207.png"/>
    
    
