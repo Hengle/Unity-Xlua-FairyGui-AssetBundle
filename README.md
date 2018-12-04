@@ -1,12 +1,17 @@
-<h2>下面说明项目从无到有的搭建过程，主要支持两个方面：</h2>
-   <h3>一是结合Unity、Xlua、FairyGui、以及AB打包</h3>
-   <h3>二是支持服务器热更新AssetBundle。</h3>
+<h2>下面说明项目从无到有的搭建过程，项目支持Unity、Xlua、FairyGui、AssetBundle打包，资源热更新，共七个方面：</h2>
+   <h3><a href="#n1">1、新建Unity空项目</a></h3>
+   <h3><a href="#n2">2、结合Xlua并配置</a></h3>
+   <h3><a href="#n3">3、结合FairyGui并配置</a></h3>
+   <h3><a href="#n4">4、AssetBundle打包</a></h3>
+   <h3><a href="#n5">5、IIS服务器配置与资源下载代码</a></h3>   
+   <h3><a href="#n6">6、FairyGui使用动态资源</a></h3>
+   <h3><a href="#n7">7、HotFix代码更新</a></h3>
 
-<h2>1、新建空Unity项目</h2>
+<h2 name="n1">1、新建空Unity项目</h2>
    <h3>起个项目名UnityFramework</h3>
    <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204142922.png"/>
    
-<h2>2、结合Xlua</h2>
+<h2 name="n2">2、结合Xlua</h2>
    <h3>到 https://github.com/Tencent/xLua/releases 下载xlua发布版xlua_v2.1.12.zip，解压后看到如图：</h3>
    <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204143454.png"/>
    
