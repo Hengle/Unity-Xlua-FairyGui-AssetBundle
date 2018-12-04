@@ -9,17 +9,17 @@
    <h3><a href="#n7">7、HotFix代码更新</a></h3>
 
 <h2 name="n1">1、新建空Unity项目</h2>
-   <h3>起个项目名UnityFramework</h3>
+   <h4>1.1 起个项目名UnityFramework</h4>
    <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204142922.png"/>
    
 <h2 name="n2">2、结合Xlua</h2>
-   <h3>到 https://github.com/Tencent/xLua/releases 下载xlua发布版xlua_v2.1.12.zip，解压后看到如图：</h3>
+   <h4>2.1 到 https://github.com/Tencent/xLua/releases 下载xlua发布版xlua_v2.1.12.zip，解压后看到如图：</h4>
    <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204143454.png"/>
    
-   <h3>拷贝上图所有文件到UnityFramework根目录下，如图：</h3>
+   <h4>2.2 拷贝上图所有文件到UnityFramework根目录下，如图：</h4>
    <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204144058.png"/>
    
-   <h3>在Unity中打开UnityFramework项目，可以看到菜单栏中有了Xlua菜单项，并在Assets根目录中新建Editor、Lua、Resources、Scenes、Scripts这5个空目录，之后会使用。如图：</h3>   
+   <h4>2.3 在Unity中打开UnityFramework项目，可以看到菜单栏中有了Xlua菜单项，并在Assets根目录中新建Editor、Lua、Resources、Scenes、Scripts这5个空目录，之后会使用。如图：</h4>   
    <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204145630.png"/>
    
    
