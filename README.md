@@ -34,7 +34,7 @@
    <h3>AssetBundle原理参考 http://www.cnblogs.com/msxh/p/8506274.html </h3>
    <h3>自动设置AssetBundle Name</h3>
    <h3>AssetBundle Browser自动打包 参考：http://gad.qq.com/article/detail/287854</h3>
-   <h3>生成Version.txt更新文件</h3>
+   <h3>生成Version.txt更新文件 参考： http://www.cnblogs.com/what-lee/p/9260045.html</h3>
    <h3>清除所有AssetBundle Name</h3>
    <h3>4.1 拷贝AssetBundleConfig.cs BuildAssetBundleVersion.cs CreateAssetBundle.cs 到 Assets/Editor目录下</h3>
    <h3>    菜单栏 window -> 出现3个新按钮。如图：</h3>
