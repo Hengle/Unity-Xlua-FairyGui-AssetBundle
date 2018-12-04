@@ -18,3 +18,7 @@
    
    <h3>拷贝上图所有文件到UnityFramework根目录下，如图：</h3>
    <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204144058.png"/>
+   
+   <h3>在Unity中打开UnityFramework项目</h3>，可以看到菜单栏中有了Xlua菜单项，并在Assets根目录中新建Editor、Lua、Resources、Scenes、Scripts这5个空目录，之后会使用。如图：</h3>   
+   <img src="https://github.com/terribleness/Unity-Xlua-FairyGui-AssetBundle/blob/master/document/QQ%E6%88%AA%E5%9B%BE20181204145630.png"/>
+   
